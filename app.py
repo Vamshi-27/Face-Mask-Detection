@@ -12,8 +12,8 @@ import os
 model_path = "face_mask_model.h5"
 
 if not os.path.exists(model_path):
-    url = "https://drive.google.com/uc?id=1RmLwO8RWL0PtOoyZl_w-qjohjZDBVCGH"  # <-- replace this
-    gdown.download(url, model_path, quiet=False)
+    url = "https://drive.google.com/uc?id=1pWUbVHHN1DQ1NCw0MYVU-KjginRGrgPX"  # <-- replace this
+    gdown.download(url, model_path, quiet=False, fuzzy=True)
 
 # -------------------------------
 # Load model
